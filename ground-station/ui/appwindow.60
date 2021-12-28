@@ -1,0 +1,40 @@
+import { Button, VerticalBox, ListView, StandardListView} from "sixtyfps_widgets.60";
+
+export AppWindow := Window {
+    callback quit();
+
+    preferred-width: 800px;
+    preferred-height: 600px;
+    title: "Ground Station";
+
+    property<int> counter: 42;
+    // Main rocket list
+
+    callback request-increase-value();
+    
+
+    /* Main Side Bar
+    
+    Contains a list of all the transmitting rockets
+    Displays:
+    - Name
+    - Status (Ready/Armed/In Flight/Parachuted/Landed)
+    - Time since last transmission
+    - Distance from ground station    
+    */
+
+    VerticalBox { 
+        height: 100%;
+        width: 100%;
+
+        StandardListView {
+            width: 300px;
+            height: 100%;
+            model: [ { text: "Blue"}, { text: "Red" }, { text: "Green" },
+                { text: "Yellow" }, { text: "Black"}, { text: "White"},
+                { text: "Magenta" }, { text: "Cyan" },
+            ];
+        }
+
+    }
+}
