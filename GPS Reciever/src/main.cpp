@@ -118,11 +118,10 @@ void loop()
     if (rf95.recv(buf, &len))
     {
       digitalWrite(LED, HIGH);
-      RH_RF95::printBuffer("Received: ", buf, len);
-      Serial.print("Got: ");
+      Serial.print("|");
+      Serial.print(rf95.lastRssi(), DEC);
+      Serial.print(",");
       Serial.println((char*)buf);
-      Serial.print("RSSI: ");
-      Serial.println(rf95.lastRssi(), DEC);
       digitalWrite(LED, LOW);
     }
     else

@@ -11,6 +11,7 @@
 #include <SPI.h>
 #include <RH_RF95.h>
 #include <Adafruit_GPS.h>
+#include <string.h>
 
 /* for feather32u4 
 #define RFM95_CS 8
@@ -158,7 +159,7 @@ void setup()
   GPSSerial.println(PMTK_Q_RELEASE);
 }
 
-int16_t packetnum = 0;  // packet counter, we increment per xmission
+long id = random(1000,9999);
 
 void loop()
 {
@@ -171,7 +172,12 @@ void loop()
     // so be very wary if using OUTPUT_ALLDATA and trying to print out data
     Serial.println("Transmitting..."); // Send a message to rf95_server
 
-    rf95.send((uint8_t *)GPS.lastNMEA(), strlen(GPS.lastNMEA()));
+    String data = "";
+    data += id;
+    data += ",";
+    data += GPS.lastNMEA();
+
+    rf95.send((uint8_t *)data.c_str(), strlen(GPS.lastNMEA()));
 
     Serial.print(GPS.lastNMEA()); // this also sets the newNMEAreceived() flag to false
 

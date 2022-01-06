@@ -2,8 +2,9 @@
 name = "ground-station"
 version = "0.1.0"
 authors = ["Ethan <edv121@outlook.com>"]
-edition = "2018"
+edition = "2021"
 build = "build.rs"
+resolver = "2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -11,6 +12,8 @@ build = "build.rs"
 chrono = "*"
 sixtyfps = "0.1.5"
 serialport = "*"
+lazy_static = "*"
+plotters = { version = "0.3.1", default-features = true, features = ["bitmap_backend", "surface_series", "line_series"] }
 
 [build-dependencies]
 sixtyfps-build = "0.1.5"
