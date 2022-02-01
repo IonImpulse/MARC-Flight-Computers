@@ -230,7 +230,12 @@ impl Location {
             gps_altitude: self.gps_altitude.unwrap() as f32,
             gps_speed: self.gps_speed.unwrap() as f32,
             gps_satellites: self.gps_satellites.unwrap() as i32,
-            gps_solve_status: self.gps_solve_status.unwrap() as i32,
+            gps_solve_status: match self.gps_solve_status.unwrap() {
+                0 => SharedString::from("No Fix"),
+                1 => SharedString::from("2D Solve"),
+                2 => SharedString::from("3D Solve"),
+                _ => SharedString::from("Error"),
+            },
         }
     }
 }

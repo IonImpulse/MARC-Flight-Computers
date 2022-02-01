@@ -15,7 +15,7 @@ export struct Rocket := {
 
 export struct activeLocation := {
     timestamp: string,
-    gps_solve_status: int,
+    gps_solve_status: string,
     gps_latitude: float,
     gps_longitude: float,
     gps_altitude: float,
@@ -44,7 +44,7 @@ export AppWindow := Window {
     property<image> altitudePlot: @image-url("");
     property<activeLocation> currentLocation: {
         timestamp: "",
-        gps_solve_status: 0,
+        gps_solve_status: "",
         gps_latitude: 0.0,
         gps_longitude: 0.0,
         gps_altitude: 0.0,
@@ -68,6 +68,8 @@ export AppWindow := Window {
         width: 100%;
         height: 100%;
         Text {
+            x: parent.x + 10px;
+            y: parent.y + 10px;
             vertical-alignment: center;
             horizontal-alignment: center;
             text: "Waiting for reciever...";
@@ -106,6 +108,8 @@ export AppWindow := Window {
                     }
                  
                     Text {
+                        x: parent.x + 10px;
+                        y: parent.y + 8px; 
                         text: "ID: " + rocket.id + " | ms: " + rocket.ms + "| # Pings: " + rocket.pings;
                         font-size: 14px;
                     }
