@@ -235,11 +235,9 @@ void loop()
 
     rf95.send((uint8_t *)data.c_str(), strlen(data.c_str()));
 
-    Serial.print(data); // this also sets the newNMEAreceived() flag to false
+    Serial.println(data); // this also sets the newNMEAreceived() flag to false
 
     Serial.println("Waiting for packet to complete..."); 
     rf95.waitPacketSent();
-  } else {
-    delay(10);
   }
 }
