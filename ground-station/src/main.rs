@@ -1,4 +1,4 @@
-#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+//#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 use serialport;
 use serialport::*;
@@ -62,6 +62,9 @@ struct Location {
     pub gps_altitude: Option<f64>,
     pub gps_speed: Option<f64>,
     pub gps_satellites: Option<u8>,
+    /*pub x_accel: Option<f64>,
+    pub y_accel: Option<f64>,
+    pub z_accel: Option<f64>,*/
     pub altimeter_altitude: Option<f64>,
 }
 
@@ -446,6 +449,8 @@ fn handle_serial_data(state_clone: Arc<Mutex<GlobalState>>) {
                 if n.is_ok() {
                     // Create new location if sync signal matches
                     if line.starts_with("|") && line.len() > 1 {
+                        println!("{}", line);
+
                         let id = line.split(",").nth(1).unwrap().parse::<u16>().unwrap();
                         
                         if transmitters.clone().contains_key(&id) {
