@@ -183,6 +183,10 @@ float x_avg = 0;
 float y_avg = 0;
 float z_avg = 0;
 
+bool can_deploy = false;
+bool should_deploy = true;
+
+
 float sum_avg(float *data, int size) {
   float sum = 0;
   for (int i = 0; i < size; i++) {
@@ -202,13 +206,21 @@ void loop()
   x_data_avg[avg_index] = accel.acceleration.x;
   y_data_avg[avg_index] = accel.acceleration.y;
   z_data_avg[avg_index] = accel.acceleration.z;
-  
+    
   if (avg_index == 99) {
     avg_index = 0;
 
     x_avg = sum_avg(x_data_avg, 100);
     y_avg = sum_avg(y_data_avg, 100);
     z_avg = sum_avg(z_data_avg, 100);
+  
+    float mag = sqrt(pow(accel.acceleration.x, 2) + pow(accel.acceleration.y, 2) + pow(accel.acceleration.z, 2)) - GRAVITY;
+
+    // CAN_DEPLOY CASE 1: experiences G-force of 5 or more
+    if (mag > 5 * GRAVITY) {
+      can_deploy = true;
+    }
+
 
   } else {
     avg_index++;
@@ -218,9 +230,6 @@ void loop()
   char c = GPS.read();
 
   if (GPS.newNMEAreceived()) {
-    // a tricky thing here is if we print the NMEA sentence, or data
-    // we end up not listening and catching other sentences!
-    // so be very wary if using OUTPUT_ALLDATA and trying to print out data
     Serial.println("Transmitting..."); // Send a message to rf95_server
 
     String data = "";
@@ -235,9 +244,24 @@ void loop()
 
     rf95.send((uint8_t *)data.c_str(), strlen(data.c_str()));
 
-    Serial.println(data); // this also sets the newNMEAreceived() flag to false
+    Serial.print(data);
 
     Serial.println("Waiting for packet to complete..."); 
     rf95.waitPacketSent();
+  }
+
+  if (can_deploy && should_deploy) {
+    // Send a message to rf95_server
+    String data = "";
+    data += id;
+    data += ",";
+    data += "DEPLOY";
+    
+    rf95.send((uint8_t *)data.c_str(), strlen(data.c_str()));
+
+    digitalWrite(DEPLOY_PIN, HIGH);
+    delay(1000);
+    digitalWrite(DEPLOY_PIN, LOW);
+    should_deploy = false;
   }
 }
