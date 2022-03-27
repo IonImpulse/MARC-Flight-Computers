@@ -21,13 +21,17 @@ export struct activeLocation := {
     gps_altitude: float,
     gps_speed: float,
     gps_satellites: int,
+    x_accel: float,
+    y_accel: float,
+    z_accel: float,
+    altimeter_altitude: float
 }
 
 export AppWindow := Window {
     callback quit();
 
-    preferred-width: 1100px;
-    preferred-height: 800px;
+    preferred-width: 1600px;
+    preferred-height: 1000px;
     title: "Ground Station";
     default-font-family: "JetBrains Mono";
 
@@ -50,6 +54,10 @@ export AppWindow := Window {
         gps_altitude: 0.0,
         gps_speed: 0.0,
         gps_satellites: 0,
+        x_accel: 0.0,
+        y_accel: 0.0,
+        z_accel: 0.0,
+        altimeter_altitude: 0.0
     };
 
     /* Main Side Bar
@@ -137,7 +145,7 @@ export AppWindow := Window {
                     y: parent.y + 10px;
                     font-size: 14px;
                     color: #ffffff;
-                    text: "Time:" + currentLocation.timestamp + "\nSolve Status: " + currentLocation.gps_solve_status + "\nLatitude: " + currentLocation.gps_latitude + "\nLongitude: " + currentLocation.gps_longitude + "\nAltitude (meters): " + currentLocation.gps_altitude + "\nSpeed (knots): " + currentLocation.gps_speed + "\n# Satellites: " + currentLocation.gps_satellites;
+                    text: "Time:" + currentLocation.timestamp + "\nSolve Status: " + currentLocation.gps_solve_status + "\nLatitude: " + currentLocation.gps_latitude + "\nLongitude: " + currentLocation.gps_longitude + "\nAltitude (meters): " + currentLocation.gps_altitude + "\nSpeed (knots): " + currentLocation.gps_speed + "\n# Satellites: " + currentLocation.gps_satellites + "\nAltimeter Altitude (meters): " + currentLocation.altimeter_altitude + "\nAcceleration (m/s^2): " + currentLocation.x_accel + "," + currentLocation.y_accel + "," + currentLocation.z_accel;
                     horizontal-stretch: 0;
                     vertical-stretch: 0;
                 }
@@ -148,8 +156,8 @@ export AppWindow := Window {
                 font-size: 20px;
             }
             Rectangle {
-                width: 500px;
-                height: 500px;
+                width: 1000px;
+                height: 600px;
                 background: #1a1a1a;
                 Image {
                     width: parent.width;

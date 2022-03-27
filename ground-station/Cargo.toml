@@ -14,6 +14,9 @@ sixtyfps = "0.1.5"
 serialport = "*"
 lazy_static = "*"
 plotters = { version = "0.3.1", default-features = true, features = ["bitmap_backend", "surface_series", "line_series"] }
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
 
 [build-dependencies]
 sixtyfps-build = "0.1.5"

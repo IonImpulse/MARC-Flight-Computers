@@ -1,0 +1,1200 @@
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:23.401831500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.5)
+	y_accel: Some(-9.77)
+	z_accel: Some(-1.26)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:23.402215400 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(322.115018)
+	x_accel: Some(1.5)
+	y_accel: Some(-9.76)
+	z_accel: Some(-1.24)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:24.401530 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.5)
+	y_accel: Some(-9.76)
+	z_accel: Some(-1.24)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:24.401960300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(322.11)
+	x_accel: Some(1.5)
+	y_accel: Some(-9.68)
+	z_accel: Some(-1.23)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:25.408393800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.45)
+	y_accel: Some(-9.69)
+	z_accel: Some(-1.21)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:25.408618500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(322.095018)
+	x_accel: Some(1.45)
+	y_accel: Some(-9.69)
+	z_accel: Some(-1.21)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:26.415071700 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.45)
+	y_accel: Some(-9.69)
+	z_accel: Some(-1.21)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:26.416346900 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.48)
+	y_accel: Some(-9.68)
+	z_accel: Some(-1.22)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:26.417393 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.48)
+	y_accel: Some(-9.68)
+	z_accel: Some(-1.22)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:27.419149500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(322.115018)
+	x_accel: Some(1.28)
+	y_accel: Some(-9.81)
+	z_accel: Some(-1.13)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:27.419508700 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.28)
+	y_accel: Some(-9.81)
+	z_accel: Some(-1.13)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:28.427644300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(322.105018)
+	x_accel: Some(1.25)
+	y_accel: Some(-9.82)
+	z_accel: Some(-0.91)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:28.428767500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.25)
+	y_accel: Some(-9.82)
+	z_accel: Some(-0.91)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:28.429164100 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(322.095018)
+	x_accel: Some(1.25)
+	y_accel: Some(-9.82)
+	z_accel: Some(-0.91)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:29.435291300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.18)
+	y_accel: Some(-9.78)
+	z_accel: Some(-0.95)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:29.436023200 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.18)
+	y_accel: Some(-9.78)
+	z_accel: Some(-0.95)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:30.451882900 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.11)
+	y_accel: Some(-9.55)
+	z_accel: Some(-0.83)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:30.452249300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(1.11)
+	y_accel: Some(-9.55)
+	z_accel: Some(-0.83)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:22:35.487222800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:53.938700900 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:58.963072600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:58.963313200 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:58.963467300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:59.971181900 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:59.971430600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.06)
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:59.971669500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:59.971891800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.89)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:23:59.971961500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:00.980806 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.89)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:00.981143600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0505018)
+	x_accel: Some(-3.17)
+	y_accel: Some(1.9)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:00.981315600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:00.981802500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.9)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:00.982183600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:01.987139800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.9)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:01.987633400 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:02.987479 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.05)
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:02.988056200 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.88)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:04.005030900 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.88)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:04.005390300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0605018)
+	x_accel: Some(-3.17)
+	y_accel: Some(1.89)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:04.005762500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.89)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:05.013342400 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0409018)
+	x_accel: Some(-3.17)
+	y_accel: Some(1.89)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:05.013626700 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.89)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:05.014440100 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0809018)
+	x_accel: Some(-3.17)
+	y_accel: Some(1.88)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:06.013762100 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.88)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:06.014676100 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0709018)
+	x_accel: Some(-3.16)
+	y_accel: Some(1.88)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:07.013376800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.16)
+	y_accel: Some(1.88)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:07.013570400 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0809018)
+	x_accel: Some(-3.16)
+	y_accel: Some(1.88)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:07.013787600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:08.021642 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0909018)
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:08.021926600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:09.021627400 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0709018)
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.6)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:09.022346800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:09.023480900 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0609018)
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:10.031613500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:10.032514 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.0709018)
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:11.038718800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.16)
+	y_accel: Some(1.89)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:11.039036100 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.88)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:11.039303300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.88)
+	z_accel: Some(9.59)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:12.046024300 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.87)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:12.046508400 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(-3.17)
+	y_accel: Some(1.87)
+	z_accel: Some(9.61)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:29.129714100 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:34.162157600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.16)
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:34.162420700 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.16)
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:34.162572800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.17)
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:34.163049600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.17)
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:35.165641400 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:35.166530100 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.15)
+	x_accel: Some(0.0)
+	y_accel: Some(0.0)
+	z_accel: Some(0.0)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:35.167169700 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:35.167759500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(0.95)
+	y_accel: Some(-3.25)
+	z_accel: Some(-8.99)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:35.168282 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:36.172811800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(0.95)
+	y_accel: Some(-3.25)
+	z_accel: Some(-8.99)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:36.173194700 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: Some(321.185018)
+	x_accel: Some(0.96)
+	y_accel: Some(-3.26)
+	z_accel: Some(-8.98)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:36.173392600 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:36.173542800 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: Some(0.96)
+	y_accel: Some(-3.26)
+	z_accel: Some(-8.98)
+}
+Location: {
+	id: 0
+	signal_strength: 9591
+	state: Ready
+	timestamp: 2022-02-09 03:24:36.174000500 UTC
+	gps_solve_status: None
+	gps_latitude: None
+	gps_longitude: None
+	gps_altitude: None
+	gps_speed: None
+	gps_satellites: None
+	altimeter_altitude: None
+	x_accel: None
+	y_accel: None
+	z_accel: None
+}
