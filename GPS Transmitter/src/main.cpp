@@ -54,7 +54,7 @@ void setup()
 
   Serial.begin(115200);
 
-  delay(100);
+  delay(5000);
 
   Serial.println("Feather LoRa TX Test!");
 
@@ -215,8 +215,8 @@ float z_avg = 0;
 float last_alt_avg = -1;
 float alt_avg = 0;
 
-bool can_deploy = false;
-bool should_deploy = false;
+bool can_deploy = true;
+bool should_deploy = true;
 bool has_deployed = false;
 
 float sum_avg(float *data, int size)
