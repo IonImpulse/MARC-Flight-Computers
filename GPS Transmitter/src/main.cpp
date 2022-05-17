@@ -3,10 +3,13 @@
 #include <RH_RF95.h>
 #include <Adafruit_GPS.h>
 #include <string.h>
+#include <bits/stdc++.h> 
 
 #include <Adafruit_ICM20X.h>
 #include <Adafruit_ICM20649.h>
 #include <Adafruit_DPS310.h>
+
+using namespace std;
 
 #define GRAVITY 10
 
@@ -219,14 +222,15 @@ bool can_deploy = true;
 bool should_deploy = true;
 bool has_deployed = false;
 
-float sum_avg(float *data, int size)
+float median_filter(float *data, int size)
 {
-  float sum = 0;
-  for (int i = 0; i < size; i++)
-  {
-    sum += data[i];
+  sort(data, data + size);
+
+  if(size % 2 == 0) {
+      return (data[size/2 - 1] + data[size/2])/2; 
+  } else {
+      return data[size/2];
   }
-  return sum / size;
 }
 
 void loop()
@@ -253,17 +257,16 @@ void loop()
 
   alt_data_avg[avg_index] = altitude;
 
-
   if (avg_index == 99)
   {
     avg_index = 0;
 
-    x_avg = sum_avg(x_data_avg, 100);
-    y_avg = sum_avg(y_data_avg, 100);
-    z_avg = sum_avg(z_data_avg, 100);
+    x_avg = median_filter(x_data_avg, 100);
+    y_avg = median_filter(y_data_avg, 100);
+    z_avg = median_filter(z_data_avg, 100);
 
     last_alt_avg = alt_avg;
-    alt_avg = sum_avg(alt_data_avg, 100);
+    alt_avg = median_filter(alt_data_avg, 100);
 
     float mag = sqrt(pow(accel.acceleration.x, 2) + pow(accel.acceleration.y, 2) + pow(accel.acceleration.z, 2));
 
