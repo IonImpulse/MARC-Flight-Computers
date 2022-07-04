@@ -162,7 +162,7 @@ impl Location {
 
         // Split by $groups
         let mut groups = sentence.split('$');
-
+        println!("{:?}", groups);
         for group in groups {
             let mut fields = group.split(',');
 
@@ -355,7 +355,7 @@ impl Transmitter {
 
                 let mut combined_location = valid_gnrmc.unwrap();
                 combined_location.gps_altitude = valid_gngga.gps_altitude;
-                combined_location.gps_satellites = valid_gngga.gps_solve_status;
+                combined_location.gps_satellites = valid_gngga.gps_satellites;
                 combined_location.gps_solve_status = valid_gngga.gps_solve_status;
                 combined_location.altimeter_altitude = valid_alt.altimeter_altitude;
                 combined_location.x_accel = valid_accel.x_accel;

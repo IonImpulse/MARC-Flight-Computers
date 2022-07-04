@@ -218,8 +218,8 @@ float z_avg = 0;
 float last_alt_avg = -1;
 float alt_avg = 0;
 
-bool can_deploy = true;
-bool should_deploy = true;
+bool can_deploy = false;
+bool should_deploy = false;
 bool has_deployed = false;
 
 float median_filter(float *data, int size)
@@ -271,13 +271,13 @@ void loop()
     float mag = sqrt(pow(accel.acceleration.x, 2) + pow(accel.acceleration.y, 2) + pow(accel.acceleration.z, 2));
 
     // CAN_DEPLOY CASE 1: experiences G-force of 5 or more
-    if (mag > 5 * GRAVITY)
+    if (mag > 10 * GRAVITY)
     {
       can_deploy = true;
     }
 
     // CAN_DEPLOY CASE 2: it's reached 800 meters
-    if (alt_avg > 800)
+    if (alt_avg > 5000)
     {
       can_deploy = true;
     }
